@@ -1,0 +1,4 @@
+(executable
+ (public_name sotd_api)
+ (name main)
+ (libraries sotd_api dream))
