@@ -1,4 +1,9 @@
 (executable
  (public_name sotd_api)
  (name main)
- (libraries sotd_api dream))
+ (libraries sotd_api dream caqti-driver-postgresql))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))
